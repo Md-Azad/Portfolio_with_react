@@ -1,4 +1,4 @@
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -52,30 +52,52 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <Link to="about" smooth={true} duration={500}>
+                About
+              </Link>
             </li>
 
             <li>
-              <a>Item 3</a>
+              <Link to="experience" smooth={true} duration={500}>
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link to="skill" smooth={true} duration={500}>
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link to="contact" smooth={true} duration={500}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl text-[#4795A8]">Azad.dev</a>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 text-[#4795A8] text-xl">
           <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <a>Item 1</a>
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
           </li>
 
           <li>
-            <a>Item 3</a>
+            <Link to="experience" smooth={true} duration={500}>
+              Experience
+            </Link>
+          </li>
+          <li>
+            <Link to="skill" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

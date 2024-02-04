@@ -26,7 +26,7 @@ const HeroSection = () => {
             data-aos="fade-up-right"
             data-aos-once="false"
           >
-            <h1 className="md:text-5xl font-bold text-[#4795A8]">Md Azad Hossain</h1>
+            <h1 className="md:text-3xl font-bold text-[#4795A8]">Md Azad Hossain</h1>
             <TypeAnimation
               preRenderFirstString={true}
               sequence={[
@@ -41,7 +41,7 @@ const HeroSection = () => {
                 500,
               ]}
               speed={50}
-              style={{ fontSize: "2em", color: "#4795A8" }}
+              style={{ fontSize: "1.5em", color: "#4795A8" }}
               repeat={Infinity}
             />
             <p className="py-6 mr-8 text-[#4795A8]">

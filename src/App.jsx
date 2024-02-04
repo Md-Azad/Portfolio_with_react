@@ -17,13 +17,20 @@ function App() {
       <Element name="about">
         <About />
       </Element>
-      <Experience />
+      <Element name="experience">
+        <Experience />
+      </Element>
+      <Element name="skill">
+        <Skills />
+      </Element>
+      <Element name="contact">
+        <div className="flex flex-col md:flex-row justify-between items-center py-12">
+          <ContactMe />
+          <Footer />
+        </div>
+      </Element>
+
       {/* <Projects /> */}
-      <Skills />
-      <div className="flex flex-col md:flex-row justify-between items-center py-12">
-        <ContactMe />
-        <Footer />
-      </div>
     </div>
   );
 }
