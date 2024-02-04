@@ -2,34 +2,9 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    // <div className="navbar  text-white">
-    //   <div className="flex-1" >
-    //     <a className="btn btn-ghost text-xl text-white">Azad Home</a>
-    //   </div>
-    //   <div className="flex-none">
-    //     <ul className="menu menu-horizontal px-1">
-    //       <li>
-    //       <Link to="about" smooth={true} duration={500}>About</Link>
-    //       </li>
-    //       <li>
-    //         <a>Experience_</a>
-    //       </li>
-    //       <li>
-    //         <a>Projects_</a>
-    //       </li>
-    //       <li>
-    //         <a>Skills_</a>
-    //       </li>
-
-    //       <li>
-    //         <a>Contact Me</a>
-    //       </li>
-
-    //     </ul>
-    //   </div>
-    // </div>
+    
     <div className="navbar ">
-      <div className="navbar-start">
+      <div className="w-full flex flex-row-reverse justify-evenly text-[#4795A8] md:justify-between">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -49,7 +24,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-24  "
           >
             <li>
               <Link to="about" smooth={true} duration={500}>
