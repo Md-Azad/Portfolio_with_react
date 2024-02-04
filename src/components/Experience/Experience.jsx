@@ -26,15 +26,25 @@ const Experience = () => {
           <p className="my-4">Responsibilities:</p>
 
           <ul>
-            <li>-&gt; Developed frontend websites according to stockholder&apos;s requirements. </li>
-            <li>-&gt; Worked on optimizing website&apos;s permormance and page speed </li>
+            <li>
+              -&gt; Developed frontend websites according to stockholder&apos;s
+              requirements.{" "}
+            </li>
+            <li>
+              -&gt; Worked on optimizing website&apos;s permormance and page
+              speed{" "}
+            </li>
             <li>
               -&gt; Following an agile environment with daily stand-ups and
               biweekly sprints.
             </li>
-            
           </ul>
-          <h3 className="mt-4 text-[#4795A8] font-semibold">Technologies-&gt; React <span className="text-gray-300">|</span> JavaScript <span className="text-gray-300">|</span> Tailwind CSS <span className="text-gray-300">|</span> Git <span className="text-gray-300">|</span> GitHub.</h3>
+          <h3 className="mt-4 text-[#4795A8] font-semibold">
+            Technologies-&gt; React <span className="text-gray-300">|</span>{" "}
+            JavaScript <span className="text-gray-300">|</span> Tailwind CSS{" "}
+            <span className="text-gray-300">|</span> Git{" "}
+            <span className="text-gray-300">|</span> GitHub.
+          </h3>
         </div>
       </div>
     </div>
