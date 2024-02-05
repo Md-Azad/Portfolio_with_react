@@ -5,9 +5,9 @@ const Experience = () => {
     <div className="text-[#4795A8] md:flex flex-row-reverse  justify-center items-center md:mt-16">
       <div
         data-aos="fade-up-right"
-        className="w-full md:w-1/2 flex flex-row justify-evenly items-center "
+        className="w-full md:w-[48%] flex flex-row justify-evenly items-center "
       >
-        <div className=" md:w-[2px] h-[300px] md:bg-red-500"></div>
+        
         <TypeAnimation
           preRenderFirstString={true}
           sequence={[500, "Experience", 1000]}
@@ -16,8 +16,9 @@ const Experience = () => {
           repeat={Infinity}
         />
       </div>
+      <div className=" md:w-[2px] h-[300px] md:bg-red-500"></div>
 
-      <div className="w-full md:w-1/2 text-2xl  ml-12">
+      <div className="w-full md:w-[44%] text-2xl  ml-12">
         <div data-aos="fade-up-left" className="w-[80%]">
           <h1 className="text-3xl mb-1">Frontend Developer</h1>
           <h2>armics IT services</h2>
