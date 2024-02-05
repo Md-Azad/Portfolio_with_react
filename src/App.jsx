@@ -5,7 +5,7 @@ import Experience from "./components/Experience/Experience";
 import HeroSection from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-// import Projects from "./components/Projects/Projects";
+import Projects from "./components/Projects/Projects";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Skills from "./components/Skills/Skills";
 
@@ -20,6 +20,10 @@ function App() {
       <Element name="experience">
         <Experience />
       </Element>
+      <Element name="project">
+      <Projects />
+      </Element>
+      <Projects />
       <Element name="skill">
         <Skills />
       </Element>
@@ -28,7 +32,7 @@ function App() {
       </Element>
       <Footer />
 
-      {/* <Projects /> */}
+      
     </div>
   );
 }

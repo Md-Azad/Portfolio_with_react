@@ -5,6 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import "./HeroSection.css";
+import { Link } from "react-scroll";
 
 
 const HeroSection = () => {
@@ -67,6 +68,9 @@ const HeroSection = () => {
               >
                 LinkedIn <FaLinkedin />
               </a>
+              <Link to="contact" smooth={true} duration={500}>
+              <button className="btn bg-black text-[#4795A8]">Contact Me</button>
+            </Link>
             </div>
           </div>
         </div>

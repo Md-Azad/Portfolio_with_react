@@ -9,9 +9,9 @@ const Projects = () => {
   }, []);
 
   const projects = getAllProjects();
-  console.log(projects.length);
+  
   return (
-    <div className="my-12">
+    <div className="mt-12 pb-12">
       <h1
         data-aos="fade-up-right"
         data-aos-once="false"
@@ -20,7 +20,7 @@ const Projects = () => {
         Projects
       </h1>
       <div className="mx-auto w-1/4 bg-red-700 h-[2px] mb-4"></div>
-      <div className="grid md:grid-cols-3 gap-4">
+      <div className=" grid md:grid-cols-3 gap-4 ">
         {
           projects.map(project=> (
             <ProjectCard key={project.id} project ={project} ></ProjectCard>

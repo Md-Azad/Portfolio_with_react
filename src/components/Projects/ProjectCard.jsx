@@ -1,24 +1,34 @@
-import { getImgUrl } from "../../utils/getImgUrl";
+import { getProjectImgUrl } from "../../utils/getImgUrl";
 
-const ProjectCard = ({project}) => {
-    console.log(getImgUrl(project.cover))
+const ProjectCard = ({ project }) => {
+
   return (
-    <div className="card w-96  shadow-xl">
+    <div className="card  shadow-xl">
       <figure className="px-10 pt-10">
         <img
-          src={getImgUrl(project.cover)}
+          src={getProjectImgUrl(project.cover)}
           alt={project.title}
-          className="rounded-xl"
+          className="rounded-xl h-48 w-96 object-cover"
         />
       </figure>
       <div className="card-body items-center text-center">
-        <h2 className="card-title">{project.title}</h2>
-        <p>{project.description}</p>
-        <div className="card-actions gap-12">
-          <button className="btn bg-[#0a1d22] text-[#4795A8]">Preview</button>
-          <button className="btn bg-[#0a1d22] text-[#4795A8]">{"</>"} Code</button>
-
-        </div>
+        <h2 className="card-title ">{project.title}</h2>
+        <p className="text-left">{project.description}</p>
+      </div>
+      <div>
+        <a href={project.live} target="_blank" rel="noreferrer">
+          <button className="btn bg-[#0a1d22] text-[#4795A8]">Live View</button>
+        </a>
+        <a href={project.live} target="_blank" rel="noreferrer">
+          <button className="btn bg-[#0a1d22] text-[#4795A8] mx-1">
+            {"</>"} Frontend
+          </button>
+        </a>
+        <a href={project.github} target="_blank" rel="noreferrer">
+          <button className="btn bg-[#0a1d22] text-[#4795A8]">
+            {"</>"} Backend
+          </button>
+        </a>
       </div>
     </div>
   );

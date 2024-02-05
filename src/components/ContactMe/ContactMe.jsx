@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
 const ContactMe = () => {
   return (
     <div className=" md:mt-12">
-      <h1 className="text-3xl mb-2 text-[#3d8b9e] text-center">Contact Me</h1>
+      <h1 className="text-3xl mb-2 text-[#3d8b9e] text-center">Get In Touch</h1>
 
       <div className=" text-[#3d8b9e] flex flex-col justify-center items-center md:flex-row md:justify-between">
         <div className="text-center my-4">

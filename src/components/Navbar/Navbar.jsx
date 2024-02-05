@@ -38,15 +38,20 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link to="project" smooth={true} duration={500}>
+                Projects
+              </Link>
+            </li>
+            <li>
               <Link to="skill" smooth={true} duration={500}>
                 Skills
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="contact" smooth={true} duration={500}>
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <a className="btn btn-ghost text-xl text-[#4795A8]">Azad.dev</a>
@@ -65,15 +70,20 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+              <Link to="project" smooth={true} duration={500}>
+                Projects
+              </Link>
+            </li>
+          <li>
             <Link to="skill" smooth={true} duration={500}>
               Skills
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="contact" smooth={true} duration={500}>
               Contact
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
