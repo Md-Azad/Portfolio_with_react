@@ -16,7 +16,7 @@ const Experience = () => {
           repeat={Infinity}
         />
       </div>
-      <div className=" md:w-[2px] h-[300px] md:bg-red-500"></div>
+      <div className=" md:w-[2px] md:h-[300px] md:bg-red-500"></div>
 
       <div className="w-full md:w-[44%] text-2xl  ml-12">
         <div data-aos="fade-up-left" className="w-[80%]">

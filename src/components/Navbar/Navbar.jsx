@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     
     <div className="navbar ">
-      <div className="w-full flex flex-row-reverse justify-evenly text-[#4795A8] md:justify-between">
+      <div className="w-full flex  justify-evenly text-[#4795A8] md:justify-between">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -24,7 +24,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-24  "
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-24 bg-black  "
           >
             <li>
               <Link to="about" smooth={true} duration={500}>
@@ -47,11 +47,7 @@ const Navbar = () => {
                 Skills
               </Link>
             </li>
-            {/* <li>
-              <Link to="contact" smooth={true} duration={500}>
-                Contact
-              </Link>
-            </li> */}
+            
           </ul>
         </div>
         <a className="btn btn-ghost text-xl text-[#4795A8]">Azad.dev</a>
@@ -79,11 +75,7 @@ const Navbar = () => {
               Skills
             </Link>
           </li>
-          {/* <li>
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
-          </li> */}
+       
         </ul>
       </div>
     </div>

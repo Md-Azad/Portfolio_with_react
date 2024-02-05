@@ -16,7 +16,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="hero min-h-screen">
-        <div className="hero-content flex-col-reverse  lg:flex-row-reverse gap-32">
+        <div className="hero-content flex-col  lg:flex-row-reverse gap-32">
         
           <div className="md:hover:scale-110 transition-transform duration-300 ease-in-out">
             <img src={image} className="mr-4 md:max-w-sm rounded-lg shadow-2xl" />
