@@ -15,12 +15,12 @@ const ProjectCard = ({ project }) => {
         <h2 className="card-title ">{project.title}</h2>
         <p className="text-left">{project.description}</p>
       </div>
-      <div>
+      <div className="w-1/2 md:w-full mx-auto text-center">
         <a href={project.live} target="_blank" rel="noreferrer">
           <button className="btn bg-[#0a1d22] text-[#4795A8]">Live View</button>
         </a>
         <a href={project.live} target="_blank" rel="noreferrer">
-          <button className="btn bg-[#0a1d22] text-[#4795A8] mx-1">
+          <button className="btn bg-[#0a1d22] text-[#4795A8] my-2 md:mx-1">
             {"</>"} Frontend
           </button>
         </a>

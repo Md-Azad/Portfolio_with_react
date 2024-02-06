@@ -36,9 +36,9 @@ const HeroSection = () => {
                 1000,
                 "A Web Designer",
                 1000,
-                "A Frontend Develper",
+                "A Frontend Developer",
                 1000,
-                "A Backend Develper",
+                "A Backend Developer",
                 500,
               ]}
               speed={50}

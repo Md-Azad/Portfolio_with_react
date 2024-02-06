@@ -32,7 +32,7 @@ const Experience = () => {
               requirements.{" "}
             </li>
             <li>
-              -&gt; Worked on optimizing website&apos;s permormance and page
+              -&gt; Worked on optimizing website&apos;s performance and page
               speed{" "}
             </li>
             <li>
